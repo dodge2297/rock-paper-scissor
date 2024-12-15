@@ -1,0 +1,9 @@
+$nomention
+$title[Rock-Paper-Scissor]
+$image[https://cdn.discordapp.com/attachments/1156560909829931008/1289147510337831014/people-playing-paper-rock-scissors-royalty-free-illustration-1583269312.jpg?ex=66f7c3ad&is=66f6722d&hm=97682d76627d3863c2c12cfb7f185776788bcf56d255aa57c840ecf47bb9c5ca&]
+$description[Come!Lets play RPS]
+$addButton[no;1;rock;primary;no;🪨]
+$addButton[no;2;paper;primary;no;🗞️]
+$addButton[no;3;scissor;primary;no;✂️]
+$footer[Called by $username]
+$footerIcon[$authorAvatar]
