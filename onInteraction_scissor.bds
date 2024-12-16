@@ -1,0 +1,16 @@
+$nomention
+$setUserVar[v;$randomText[rock;paper;scissor];$authorID]
+$if[$getUserVar[v;$authorID]==scissor]
+$title[It's a Draaaw]
+$description[Joker chose scissor]
+$elseif[$getUserVar[v;$authorID]==paper]
+$title[You beat Joker]
+$description[Joker chose paper]
+$else
+$title[Ooooh!Joker beat you]
+$description[Joker chose rock]
+$endif
+$editButton[1;Rock;primary;yes;🪨]
+$editButton[2;Paper;primary;yes;🗞️]
+$editButton[3;Scissor;danger;yes;✂️]
+
